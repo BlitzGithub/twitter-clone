@@ -1,10 +1,10 @@
-import { Avatar } from "@mui/material";
+import { Avatar, IconButton } from "@mui/material";
 import React from "react";
 import "./Post.css";
 import VerifiedIcon from "@mui/icons-material/Verified";
-import ChatOutlinedIcon from '@mui/icons-material/ChatOutlined';
+import ChatOutlinedIcon from "@mui/icons-material/ChatOutlined";
 import ReplyIcon from "@mui/icons-material/Reply";
-import ThumbUpAltOutlinedIcon from '@mui/icons-material/ThumbUpAltOutlined';
+import ThumbUpAltOutlinedIcon from "@mui/icons-material/ThumbUpAltOutlined";
 import ShareIcon from "@mui/icons-material/Share";
 
 function Post({ displayName, userName, verified, text, image, avatar }) {
@@ -28,15 +28,20 @@ function Post({ displayName, userName, verified, text, image, avatar }) {
             <p>{text}</p>
           </div>
         </div>
-        <img
-          src={image}
-          alt="..."
-        />
+        <img src={image} alt="..." className="post_image" />
         <div className="post_footer">
-          <ChatOutlinedIcon  />
-          <ReplyIcon  />
-          <ThumbUpAltOutlinedIcon  />
-          <ShareIcon  />
+          <IconButton>
+            <ChatOutlinedIcon />
+          </IconButton>
+          <IconButton>
+            <ReplyIcon />
+          </IconButton>
+          <IconButton>
+            <ThumbUpAltOutlinedIcon />
+          </IconButton>
+          <IconButton>
+            <ShareIcon />
+          </IconButton>
         </div>
       </div>
     </div>

@@ -19,22 +19,22 @@ function Feed() {
         displayName={"Ayush Kumar"}
         userName={"KAyush2702"}
         verified={true}
-        text={"'Sup Niggaz!"}
+        text={"Welcome to Twitter Clone!"}
         avatar={
           "https://i.pinimg.com/550x/5f/7d/7a/5f7d7a055e0f00a0f1dc9a036c74bfc8.jpg"
         }
-        image={"https://i.imgflip.com/3rxe7x.jpg"}
+        image={"https://play-lh.googleusercontent.com/wIf3HtczQDjHzHuu7vezhqNs0zXAG85F7VmP7nhsTxO3OHegrVXlqIh_DWBYi86FTIGk"}
       />
       <Post
         displayName={"Ayush Kumar"}
         userName={"KAyush2702"}
         verified={true}
-        text={"'Sup Niggaz!"}
+        text={"Hope You Enjoy!"}
         avatar={
           "https://i.pinimg.com/550x/5f/7d/7a/5f7d7a055e0f00a0f1dc9a036c74bfc8.jpg"
         }
         image={
-          "https://lh6.googleusercontent.com/RWLHu3sQ1me6WtCQVPonWcOOJTNQnGUpwXIuv1ktrMmWdPZxo_4Ro0XuCtlvomUW5GT3zJZtJWYdijfQpaqCPTKrQ2kGH6rOTEDkUXtScOHpJ0XeueU5zXad28yif72ODJLrKzUO"
+          "https://thumbs.dreamstime.com/b/enjoy-comic-text-collection-sound-effects-pop-art-style-set-speech-bubble-word-short-phrase-cartoon-expression-134687161.jpg"
         }
       />
     </div>
