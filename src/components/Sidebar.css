@@ -1,0 +1,29 @@
+.sidebar_tweet {
+  background-color: var(--chirper_color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 700 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.sidebar {
+  border-right: 3px solid var(--chirper_background);
+  flex: 0.2;
+  /* min-width: 250px; */
+  /* margin-top: 20px; */
+  padding-left: 20px;
+  padding-right: 20px;
+  /* background: black; */
+  text-align: center;
+}
+
+.sidebar_twittericon {
+  color: var(--chirper_color);
+  font-size: 30px !important;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
