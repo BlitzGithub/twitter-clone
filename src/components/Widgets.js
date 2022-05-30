@@ -8,7 +8,7 @@ function Widgets() {
     <div className="widgets">
       <div className="widgets_input">
         <SearchIcon className="widgets_searchIcon" />
-        <input placeholder="Search Chirper" type="text" />
+        <input placeholder="Search Twitter-Clone" type="text" />
       </div>
       <div className="widgets_widgetContainer">
         <h2>What's Happening</h2>
