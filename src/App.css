@@ -4,7 +4,6 @@ body {
 }
 
 .app {
-  /* border: 2px solid black; */
   display: flex;
   height: 100vh;
   max-width: 75%;
